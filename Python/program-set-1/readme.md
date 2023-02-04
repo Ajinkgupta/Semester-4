@@ -34,7 +34,7 @@ Looping Structures
 
 1.Floyd's triangle is a right-angled triangular array of natural numbers as shown below:
 
-![https://javaconceptoftheday.com/wp-content/uploads/2015/12/FloydTriangle.png](images/image1.jpg)
+![https://javaconceptoftheday.com/wp-content/uploads/2015/12/FloydTriangle.png](https://javaconceptoftheday.com/wp-content/uploads/2015/12/FloydTriangle.png)
 
 Write a program to print the Floy'd triangle.
 
