@@ -1,10 +1,14 @@
-str = input("Enter the String you want to be Passed : ")
-rev = str[::-1]
+def is_palindrome(s):
+    rev = s[::-1]
+    
+    if s == rev:
+        return True
+    else:
+        return False
 
-if str == rev:
-    print(str  + " This String is Palindrome")
-    print("Reason : " + str + " is Equal " + rev)
+
+str = input("Enter the string you want to be passed: ")
+if is_palindrome(str):
+    print(str  + " is a palindrome string")
 else:
-    print(str + " This String is not Palindrome ")
-    print("Reason : " + str + " is not Equal " + rev)
-
+    print(str + " is not a palindrome string")
